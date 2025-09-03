@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A sample accessible and SEO-friendly webpage built with HTML5 semantic tags.">
+  <title>Accessible & SEO-Friendly Web Page</title>
+</head>
+<body>
+  <!-- Accessible, SEO-optimized header -->
+  <header>
+    <h1>Welcome to My Accessible Web Page</h1>
+    <nav aria-label="Main navigation">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main content with semantic sections -->
+  <main>
+    <article id="about">
+      <h2>About Us</h2>
+      <p>
+        We are dedicated to building web pages that are accessible for everyone, 
+        including users relying on screen readers. This page also follows SEO best practices.
+      </p>
+    </article>
+
+    <section id="services">
+      <h2>Our Services</h2>
+      <ul>
+        <li>Web Design</li>
+        <li>SEO Optimization</li>
+        <li>Accessibility Audits</li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <form action="#" method="post" aria-label="Contact form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" required></textarea><br><br>
+
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 My Accessible Website | All rights reserved.</p>
+  </footer>
+</body>
+</html>
